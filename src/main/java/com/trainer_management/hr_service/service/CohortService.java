@@ -31,7 +31,7 @@ public class CohortService {
 	public CohortService(CohortDAO cd, AllocationDAO adao, TrainerFeign tf,FeignHR th) {
 		super();
 		this.cd = cd;
-		this.adao=adao;
+		this.adao=adao;  
 		this.tf=tf;
 		this.th=th;
 	}
